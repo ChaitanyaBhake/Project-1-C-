@@ -1,0 +1,168 @@
+:root {
+    --faint-orange: #FFCD9E;
+    --faint-black: #282828;
+    --faint-grey: #484848;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+.hero-section {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    vertical-align: middle;
+}
+
+
+header {
+    background-color: var(--faint-orange);
+    height: 70vh;
+    width: 100%;
+    padding-top: 100px;
+}
+
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    size: 36px;
+    line-height: 54px;
+    font-weight: 700;
+}
+
+p {
+    color: var(--faint-grey);
+    size: 20px;
+    line-height: 32px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+h3 {
+    color: var(--faint-black);
+    font-family: 'Inter', sans-serif;
+    size: 20px;
+    line-height: 32px;
+}
+
+.btn-register {
+    color: white;
+    background-color: var(--faint-black);
+    width: 13.5rem;
+    height: 4rem;
+    border-radius: 8px;
+    text-align: center;
+    font-family: Inter;
+    font-size: medium;
+}
+
+.emailbox-style {
+    border-radius: 8px;
+    width: 344px;
+    height: 64px;
+    top: 411px;
+    left: 136px;
+    border-color: black;
+    border-width: 4px;
+    margin-right: 2vh;
+}
+
+::placeholder {
+    font-size: medium;
+    justify-content: center;
+    text-align: center;
+}
+
+.tagline {
+    color: white;
+    font-weight: 500;
+    size: 16px;
+    position: relative;
+    left: 5vh;
+}
+
+/*Footer*/
+
+footer {
+    background-color: var(--faint-black);
+    height: 33vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer p {
+    color: white;
+}
+
+footer li {
+    color: white;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    margin: 16px 0;
+}
+
+
+/* footer .links-container {
+    display: flex;
+} */
+
+footer .links-container {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    align-items: center;
+    justify-items: center;
+}
+
+footer .social_logos {
+    margin-left: 7rem;
+}
+
+footer .social_logos a {
+    margin-right: 2px;
+}
+
+footer .links1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    size: 20px;
+    line-height: 32px;
+    margin-left: -230px;
+}
+
+footer .links2 {
+    font-family: 'Inter', sans-serif;
+    text-align: right;
+}
+
+.hello_dweep {
+    margin-top: 40px;
+}
+
+.bottom_text {
+    color: white;
+}
